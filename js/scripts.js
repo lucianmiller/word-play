@@ -13,6 +13,11 @@ $(document).ready(function() {
     console.log(bigWordsArray);
     const reverseArray = bigWordsArray.reverse();
     console.log(reverseArray);
+    const joinArray = reverseArray.join(' ');
+    console.log(joinArray);
+
+    $("#output").text(joinArray);
+
     event.preventDefault();
   });
 });
