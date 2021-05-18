@@ -11,6 +11,8 @@ $(document).ready(function() {
       };
     });
     console.log(bigWordsArray);
+    const reverseArray = bigWordsArray.reverse();
+    console.log(reverseArray);
     event.preventDefault();
   });
 });
